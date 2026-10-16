@@ -1,0 +1,39 @@
+{
+  "scenario": "regime_shift",
+  "seed": 17,
+  "sessions": 360,
+  "stocks": 32,
+  "label_horizon": 5,
+  "purge_sessions": 2,
+  "train_end": 220,
+  "validation_end": 280,
+  "models": [
+    "mlp",
+    "gru",
+    "gnn",
+    "attention",
+    "transformer"
+  ],
+  "network": {
+    "hidden": 16,
+    "history": 20,
+    "layers": 2,
+    "heads": 4,
+    "dropout": 0.1,
+    "lr": 0.001,
+    "weight_decay": 0.001
+  },
+  "training": {
+    "max_epochs": 6,
+    "patience": 2,
+    "batch_days": 2,
+    "seed": 17
+  },
+  "portfolio": {
+    "initial_capital": 1000000,
+    "top_n": 5,
+    "rebalance_sessions": 20,
+    "equity_fraction": 0.95,
+    "cost_bps": 10
+  }
+}

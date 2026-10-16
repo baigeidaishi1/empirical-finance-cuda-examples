@@ -1,0 +1,26 @@
+{
+  "algorithm": "sha256",
+  "files": {
+    "run.py": "bf5d67cfd53eb4b881b73eb3146ef1e794c2ae5fb3e0868021941b3c093213e1",
+    "README.md": "a1635c65e1219ea59183c459e0ca086087126c836e97b9a7ecc08ee5c5d4a803",
+    "REPRODUCTION INSTRUCTION.md": "1d6209dd8d93d3eb5f30617563eb1128a490d6e9659446487b2f348e274bd8de",
+    "LICENSE": "e2fe997d532ab2d37c756f3bb52e6f554018d30938db5a9cb623c1ece9b1f9c1",
+    "requirements.txt": "6e69ffe6f7841e5d8aea3f05a4bf77c60055d3b0717fcccbb31fd19647e07b7b",
+    "requirements-cpu.txt": "7c683ade274715da4b1a7d36618eb452c5ae09a8ff3e2367aafa06e68762d933",
+    "requirements-cuda.txt": "354b291a17ae1e1c03decbac37e2c392698e0a4603a535013ca9210158836f1a",
+    ".gitignore": "04f91d3767ca4ec75a34ceee8481da4f02d00ede3b3ff8b2edc3f68b4997496a",
+    "configs/regime_shift.json": "d30dd630f6d25e39cc023d9734117ecc08bb08f4895433d4228badd8445c870d",
+    "configs/trend.json": "acacb41b0941049a423b0b9b125b929f3533bbd0d220295d37a4dd4ad737b1a3",
+    "configs/weak_signal.json": "ccfd67ab1831011e103acb7f5e6f500941dde9340c5299e60ed0f4253b6557ca",
+    "src/efcuda/__init__.py": "aae610931b6ded635890095b78437baf64497f9f54b6652554e3070a1f3955c8",
+    "src/efcuda/cli.py": "555a1cf2ef9754b8d8f0179b091cee686a6a9d81a73edc463a92f354467766f7",
+    "src/efcuda/data.py": "1f4582b3840b4d54302b144e7a20f49cce03ad6aa1c8650ba3c2fdaf1e5970e5",
+    "src/efcuda/engine.py": "06d072bc175181bac2384e27a4922cca58fc46f06017c17e94a7c8e4b91c9495",
+    "src/efcuda/ledger.py": "90ad8f249b19e532fbcf277b126a3a96837e16a589ae8a8c975db66854610ad2",
+    "src/efcuda/models.py": "873a45e5ac8ebe5bea151b8f4460ba9475458a9589a0116ab5f5fa34f917f42f",
+    "src/efcuda/native_graph.py": "2068e0babd4559d9bbf371529474deb1f90e09a9cdc38a8bef41de5a9e7c2bca",
+    "src/efcuda/workflow.py": "c5044bb621d4fdd56bbc4392fa533df4486b156ab865e3eac8d52e95f4d33f8b",
+    "tests/check_cuda.py": "95322252531168f7ed94c65bfd26dffc9d4f8d3ce977891374c087dd9503dad5",
+    "tests/test_contract.py": "91ec77ea7bd6d01133e64af20278aefa7ed6ca1273cdb824bd24dce0f9361444"
+  }
+}
